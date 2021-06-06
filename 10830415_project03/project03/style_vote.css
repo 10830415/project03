@@ -1,0 +1,109 @@
+body{margin: 0; padding: 0;}
+.container{ background: #EDF2FF; margin: 0 auto; padding: 100px;}
+img{ border: 4px solid white; padding: 5px;}
+img:hover{background: orange;}
+input{margin: 35px;}
+
+
+/* Style the header with a grey background and some padding */
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active/current link*/
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+
+a{
+   text-decoration:none;
+   color:#fff;
+}
+
+a:hover{
+   color:#2ecc71;
+}
+
+.main{
+  
+  margin-top: 30px;
+}
+
+.sub-main{
+  
+  
+  float: left;
+}
+
+.button-one{
+  text-align: center;
+  cursor: pointer;
+  font-size:24px;
+  margin: 0 0 50px 100px;
+}
+
+
+/*Button One*/
+.button-one {
+  padding:20px 60px;
+  outline: none;
+  background-color: #F2C808;
+  border: none;
+  border-radius:5px;
+  box-shadow: 0 9px #95a5a6;
+}
+
+.button-one:hover{
+  background-color: #A0C597;
+}
+
+.button-one:active {
+  background-color: #A0C597;
+  box-shadow: 0 5px #95a5a6;
+  transform: translateY(4px);
+}
